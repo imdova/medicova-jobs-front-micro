@@ -1,0 +1,1894 @@
+[
+  {
+    "type": "container",
+    "blocks": [
+      {
+        "type": "image",
+        "blocks": [],
+        "content": "",
+        "id": "watyh2f",
+        "imageUrl": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://images.ctfassets.net/wp1lcwdav1p1/5SGnNwoLAbGGeKfrxIhFMX/9c898373ca6d5e5bf7882bba918810a4/GettyImages-1461608440.jpg?w=1500&h=680&q=60&fit=fill&f=faces&fm=jpg&fl=progressive&auto=format%2Ccompress&dpr=1&w=1000",
+        "styles": {
+          "dimensions": {
+            "height": "auto",
+            "width": {
+              "md": "50%",
+              "xs": "100%"
+            },
+            "customWidth": "custom",
+            "customHeight": "auto"
+          },
+          "image": {
+            "objectFit": "cover",
+            "height": {
+              "md": "100%",
+              "xs": "19rem"
+            },
+            "customHeight": {
+              "md": "100%",
+              "xs": "custom"
+            },
+            "width": "100%",
+            "customWidth": "100%"
+          },
+          "border": {
+            "borderTopLeftRadius": "20px",
+            "borderTopRightRadius": "0px",
+            "borderBottomLeftRadius": "20px",
+            "borderBottomRightRadius": "0px"
+          }
+        },
+        "level": 1,
+        "parentId": null
+      },
+      {
+        "type": "container",
+        "blocks": [
+          {
+            "type": "container",
+            "blocks": [
+              {
+                "type": "text",
+                "blocks": [],
+                "content": "Save up to",
+                "id": "xw2djp6",
+                "styles": {
+                  "typography": {
+                    "fontSize": "1.5rem",
+                    "fontWeight": "500",
+                    "lineHeight": "1.7rem",
+                    "color": "#161439",
+                    "textTransform": "uppercase"
+                  },
+                  "dimensions": {
+                    "width": "fit-content",
+                    "customWidth": "fit-content"
+                  },
+                  "background": {
+                    "backgroundColor": "transparent"
+                  }
+                },
+                "level": 1,
+                "parentId": null
+              },
+              {
+                "type": "text",
+                "blocks": [],
+                "content": "15%",
+                "id": "ack1z59",
+                "styles": {
+                  "typography": {
+                    "fontSize": "3rem",
+                    "fontWeight": "800",
+                    "lineHeight": "3.5rem",
+                    "color": "#2ba149"
+                  },
+                  "dimensions": {
+                    "width": "fit-content",
+                    "customWidth": "fit-content"
+                  },
+                  "background": {
+                    "backgroundColor": "transparent"
+                  }
+                },
+                "level": 1,
+                "parentId": null
+              },
+              {
+                "type": "text",
+                "blocks": [],
+                "content": " Off on our premium t-shirts.",
+                "id": "1y0rz19",
+                "styles": {
+                  "typography": {
+                    "fontSize": "1.5rem",
+                    "fontWeight": "500",
+                    "lineHeight": "1.8rem",
+                    "color": "#161439",
+                    "textTransform": "uppercase"
+                  },
+                  "dimensions": {
+                    "width": "fit-content",
+                    "customWidth": "fit-content"
+                  },
+                  "background": {
+                    "backgroundColor": "transparent"
+                  }
+                },
+                "level": 1,
+                "parentId": null
+              }
+            ],
+            "content": "",
+            "allowNesting": true,
+            "expectedChildren": 1,
+            "childrenBaseStyles": {
+              "dimensions": {
+                "width": "100%"
+              }
+            },
+            "id": "6wpetyd",
+            "styles": {
+              "dimensions": {
+                "width": "100%",
+                "height": "fit-content",
+                "customHeight": "fit-content"
+              },
+              "container": {
+                "display": "flex",
+                "flexWrap": "wrap",
+                "justifyContent": "center",
+                "alignItems": "flex-end"
+              }
+            },
+            "level": 1,
+            "parentId": null
+          },
+          {
+            "id": "rsy2a7i",
+            "type": "form",
+            "content": "",
+            "fields": [
+              {
+                "id": "name",
+                "name": "email",
+                "label": "",
+                "type": "email",
+                "required": true,
+                "textFieldProps": {
+                  "label": "Email"
+                },
+                "placeholder": "Please Enter Your email"
+              }
+            ],
+            "styles": {
+              "dimensions": {
+                "customWidth": "100%",
+                "width": "100%",
+                "customMaxWidth": "auto",
+                "maxWidth": "auto",
+                "marginTop": "12px",
+                "marginBottom": "12px"
+              },
+              "background": {
+                "backgroundColor": "#ffffff",
+                "boxShadow": "none"
+              },
+              "border": {
+                "borderTopLeftRadius": "10px",
+                "borderTopRightRadius": "10px",
+                "borderBottomLeftRadius": "10px",
+                "borderBottomRightRadius": "10px"
+              },
+              "spacing": {
+                "paddingTop": "0px",
+                "paddingBottom": "0px",
+                "paddingRight": "0px",
+                "paddingLeft": "0px"
+              }
+            },
+            "blocks": [],
+            "level": 1,
+            "formData": {
+              "hideLabel": false,
+              "name": "subscription"
+            }
+          },
+          {
+            "type": "button",
+            "blocks": [],
+            "content": "Submit",
+            "id": "t48rdvm",
+            "isForm": true,
+            "linkUrl": "",
+            "styles": {
+              "typography": {
+                "fontSize": "16px",
+                "lineHeight": "18px",
+                "fontWeight": "700",
+                "color": "#ffffff",
+                "textTransform": "uppercase"
+              },
+              "background": {
+                "backgroundColor": "#2ba149"
+              },
+              "dimensions": {
+                "width": "100%",
+                "customWidth": "100%"
+              },
+              "spacing": {
+                "paddingRight": "24px",
+                "paddingLeft": "24px",
+                "paddingTop": "12px",
+                "paddingBottom": "12px"
+              },
+              "border": {
+                "borderRadius": "4px",
+                "borderTopLeftRadius": "4px",
+                "borderTopRightRadius": "4px",
+                "borderBottomLeftRadius": "4px",
+                "borderBottomRightRadius": "4px"
+              }
+            },
+            "level": 1,
+            "parentId": null,
+            "buttonType": "submit",
+            "formId": "subscription"
+          },
+          {
+            "type": "button",
+            "blocks": [],
+            "content": "I dont want to have 15% discount ",
+            "id": "spmokt3",
+            "isForm": true,
+            "linkUrl": "",
+            "styles": {
+              "typography": {
+                "fontSize": "12px",
+                "lineHeight": "13px",
+                "fontWeight": "500",
+                "color": "#161439",
+                "textTransform": "uppercase"
+              },
+              "background": {
+                "backgroundColor": "transparent"
+              },
+              "dimensions": {
+                "marginTop": "12px",
+                "width": "100%",
+                "customWidth": "100%"
+              },
+              "spacing": {
+                "paddingRight": "0px",
+                "paddingLeft": "0px",
+                "paddingTop": "0px",
+                "paddingBottom": "0px"
+              },
+              "border": {
+                "borderRadius": "4px",
+                "borderTopLeftRadius": "10px",
+                "borderTopRightRadius": "10px",
+                "borderBottomLeftRadius": "10px",
+                "borderBottomRightRadius": "10px"
+              }
+            },
+            "level": 1,
+            "parentId": null
+          }
+        ],
+        "content": "",
+        "allowNesting": true,
+        "id": "qrsvilp",
+        "styles": {
+          "dimensions": {
+            "width": {
+              "md": "50%",
+              "xs": "100%"
+            },
+            "marginLeft": "auto",
+            "marginRight": "auto",
+            "customWidth": {
+              "md": "custom",
+              "xs": "100%"
+            },
+            "flexGrow": "4",
+            "flexShrink": "1",
+            "size": "custom"
+          },
+          "container": {
+            "display": "flex",
+            "justifyContent": "center",
+            "alignItems": "center",
+            "maxWidth": "784px",
+            "contentWidth": "boxed",
+            "flexDirection": "column",
+            "gap": "0px",
+            "width": "100%"
+          },
+          "spacing": {
+            "paddingTop": "24px",
+            "paddingRight": "24px",
+            "paddingBottom": "24px",
+            "paddingLeft": "24px"
+          }
+        },
+        "level": 1,
+        "parentId": null
+      }
+    ],
+    "content": "",
+    "allowNesting": true,
+    "id": "6a8llsz",
+    "level": 1,
+    "parentId": null,
+    "styles": {
+      "container": {
+        "display": "flex",
+        "flexDirection": {
+          "md": "row",
+          "xs": "column"
+        },
+        "justifyContent": "flex-start",
+        "alignItems": "",
+        "maxWidth": "none",
+        "contentWidth": "full-width",
+        "width": "100%"
+      },
+      "dimensions": {
+        "width": "100%",
+        "marginLeft": "",
+        "marginRight": ""
+      },
+      "background": {
+        "boxShadow": "none"
+      },
+      "border": {
+        "borderTopLeftRadius": "0px",
+        "borderTopRightRadius": "0px",
+        "borderBottomLeftRadius": "0px",
+        "borderBottomRightRadius": "0px"
+      }
+    }
+  },
+  {
+    "id": "c7ffyhd",
+    "type": "text",
+    "level": 1,
+    "blocks": [],
+    "content": "The medical field is one of the most rapidly growing industries in the United States. You can find many jobs in the medical field, from doctors and nurses to therapists, pharmacists, and even health care administrators. ",
+    "styles": {
+      "typography": {
+        "fontSize": "15px",
+        "fontWeight": "400",
+        "lineHeight": "23px",
+        "fontFamily": "Inter",
+        "textShadow": ""
+      },
+      "dimensions": {
+        "width": "100%",
+        "marginTop": "12px",
+        "marginRight": "0px",
+        "marginBottom": "0px",
+        "marginLeft": "0px"
+      },
+      "background": {
+        "backgroundColor": "transparent"
+      },
+      "spacing": {
+        "paddingTop": "0px",
+        "paddingBottom": "0px",
+        "paddingRight": "0px",
+        "paddingLeft": "0px"
+      }
+    }
+  },
+  {
+    "type": "container",
+    "blocks": [
+      {
+        "type": "container",
+        "blocks": [
+          {
+            "type": "image",
+            "blocks": [],
+            "content": "",
+            "id": "a8tn45d",
+            "styles": {
+              "dimensions": {
+                "width": "100%"
+              },
+              "image": {
+                "height": "11rem",
+                "customHeight": "custom",
+                "objectFit": "cover"
+              }
+            },
+            "level": 1,
+            "parentId": null,
+            "imageUrl": "https://medicova.site/api/v1.0.0/files/c4b8e88f-4ebd-4d1a-8821-d1d553699ee9.jpg"
+          },
+          {
+            "type": "container",
+            "blocks": [
+              {
+                "type": "text",
+                "blocks": [],
+                "content": "AI in Healthcare Sector: Revolutionizing Patient Care ",
+                "id": "mjuhspy",
+                "styles": {
+                  "typography": {
+                    "fontSize": "16px",
+                    "fontWeight": "600",
+                    "lineHeight": "18px"
+                  },
+                  "dimensions": {
+                    "width": "100%"
+                  }
+                },
+                "level": 1,
+                "parentId": null
+              },
+              {
+                "type": "container",
+                "blocks": [
+                  {
+                    "type": "image",
+                    "blocks": [],
+                    "content": "",
+                    "id": "tme0kho",
+                    "styles": {
+                      "dimensions": {
+                        "width": "50px",
+                        "customWidth": "custom",
+                        "height": "50px",
+                        "customHeight": "custom",
+                        "flexGrow": "1",
+                        "flexShrink": "0",
+                        "size": "grow"
+                      },
+                      "image": {
+                        "width": "100%",
+                        "customWidth": "100%",
+                        "height": "100%",
+                        "customHeight": "100%",
+                        "objectFit": "cover"
+                      },
+                      "border": {
+                        "borderTopLeftRadius": "50%",
+                        "borderTopRightRadius": "50%",
+                        "borderBottomLeftRadius": "50%",
+                        "borderBottomRightRadius": "50%"
+                      }
+                    },
+                    "level": 1,
+                    "parentId": null,
+                    "imageUrl": "https://medicova.site/api/v1.0.0/files/45e6665b-9f5a-46ae-b039-8abc8a1a35a0.jpg"
+                  },
+                  {
+                    "type": "container",
+                    "blocks": [
+                      {
+                        "type": "text",
+                        "blocks": [],
+                        "content": "Medicova",
+                        "id": "2ly9vt1",
+                        "level": 1,
+                        "parentId": "h550mko",
+                        "styles": {
+                          "typography": {
+                            "fontSize": "13px",
+                            "fontWeight": "500",
+                            "lineHeight": "16px"
+                          },
+                          "dimensions": {
+                            "width": "100%"
+                          }
+                        }
+                      },
+                      {
+                        "type": "text",
+                        "blocks": [],
+                        "content": "Write Your Text Here ",
+                        "id": "92pb915",
+                        "styles": {
+                          "typography": {
+                            "fontSize": "11px",
+                            "fontWeight": "400",
+                            "lineHeight": "18px",
+                            "color": "#6d6c80"
+                          },
+                          "dimensions": {
+                            "width": "100%"
+                          }
+                        },
+                        "level": 1,
+                        "parentId": null
+                      }
+                    ],
+                    "content": "",
+                    "allowNesting": true,
+                    "expectedChildren": 1,
+                    "childrenBaseStyles": {
+                      "dimensions": {
+                        "width": "100%"
+                      }
+                    },
+                    "id": "h550mko",
+                    "styles": {
+                      "dimensions": {
+                        "width": "100%"
+                      }
+                    },
+                    "level": 1,
+                    "parentId": null
+                  }
+                ],
+                "content": "",
+                "allowNesting": true,
+                "expectedChildren": 1,
+                "childrenBaseStyles": {
+                  "dimensions": {
+                    "width": "100%"
+                  }
+                },
+                "id": "xt4lo7j",
+                "styles": {
+                  "dimensions": {
+                    "width": "100%"
+                  },
+                  "container": {
+                    "display": "flex",
+                    "flexDirection": "row",
+                    "alignItems": "center"
+                  }
+                },
+                "level": 1,
+                "parentId": null
+              },
+              {
+                "type": "text",
+                "blocks": [],
+                "content": "AI-powered robotic systems (like Da Vinci Surgical System) assist",
+                "id": "113hgh3",
+                "styles": {
+                  "typography": {
+                    "fontSize": "12px",
+                    "fontWeight": "400",
+                    "lineHeight": "18px",
+                    "color": "#6d6c80"
+                  },
+                  "dimensions": {
+                    "width": "100%"
+                  }
+                },
+                "level": 1,
+                "parentId": null
+              }
+            ],
+            "content": "",
+            "allowNesting": true,
+            "expectedChildren": 1,
+            "childrenBaseStyles": {
+              "dimensions": {
+                "width": "100%"
+              }
+            },
+            "id": "dsjh9mv",
+            "styles": {
+              "dimensions": {
+                "width": "100%"
+              },
+              "spacing": {
+                "paddingTop": "8px",
+                "paddingRight": "8px",
+                "paddingBottom": "8px",
+                "paddingLeft": "8px"
+              }
+            },
+            "level": 1,
+            "parentId": null
+          }
+        ],
+        "content": "",
+        "allowNesting": true,
+        "expectedChildren": 1,
+        "childrenBaseStyles": {
+          "dimensions": {
+            "width": "100%"
+          }
+        },
+        "id": "pv9f016",
+        "styles": {
+          "dimensions": {
+            "width": "100%"
+          },
+          "container": {
+            "display": "flex",
+            "flexDirection": "column"
+          },
+          "border": {
+            "borderTopLeftRadius": "8px",
+            "borderTopRightRadius": "8px",
+            "borderBottomLeftRadius": "8px",
+            "borderBottomRightRadius": "8px",
+            "borderTopWidth": "1px",
+            "borderRightWidth": "1px",
+            "borderBottomWidth": "1px",
+            "borderLeftWidth": "1px"
+          },
+          "spacing": {
+            "paddingTop": "0px",
+            "paddingRight": "0px",
+            "paddingBottom": "0px",
+            "paddingLeft": "0px"
+          }
+        },
+        "level": 1,
+        "parentId": null
+      },
+      {
+        "type": "container",
+        "blocks": [
+          {
+            "type": "image",
+            "blocks": [],
+            "content": "",
+            "id": "lpnk0xh",
+            "styles": {
+              "dimensions": {
+                "width": "100%"
+              },
+              "image": {
+                "height": "11rem",
+                "customHeight": "custom",
+                "objectFit": "cover"
+              }
+            },
+            "level": 1,
+            "parentId": null,
+            "imageUrl": "https://medicova.site/api/v1.0.0/files/c4b8e88f-4ebd-4d1a-8821-d1d553699ee9.jpg"
+          },
+          {
+            "type": "container",
+            "blocks": [
+              {
+                "type": "text",
+                "blocks": [],
+                "content": "AI in Healthcare Sector: Revolutionizing Patient Care ",
+                "id": "qhxi617",
+                "styles": {
+                  "typography": {
+                    "fontSize": "16px",
+                    "fontWeight": "600",
+                    "lineHeight": "18px"
+                  },
+                  "dimensions": {
+                    "width": "100%"
+                  }
+                },
+                "level": 1,
+                "parentId": null
+              },
+              {
+                "type": "container",
+                "blocks": [
+                  {
+                    "type": "image",
+                    "blocks": [],
+                    "content": "",
+                    "id": "uzsld73",
+                    "styles": {
+                      "dimensions": {
+                        "width": "50px",
+                        "customWidth": "custom",
+                        "height": "50px",
+                        "customHeight": "custom",
+                        "flexGrow": "1",
+                        "flexShrink": "0",
+                        "size": "grow"
+                      },
+                      "image": {
+                        "width": "100%",
+                        "customWidth": "100%",
+                        "height": "100%",
+                        "customHeight": "100%",
+                        "objectFit": "cover"
+                      },
+                      "border": {
+                        "borderTopLeftRadius": "50%",
+                        "borderTopRightRadius": "50%",
+                        "borderBottomLeftRadius": "50%",
+                        "borderBottomRightRadius": "50%"
+                      }
+                    },
+                    "level": 1,
+                    "parentId": null,
+                    "imageUrl": "https://medicova.site/api/v1.0.0/files/45e6665b-9f5a-46ae-b039-8abc8a1a35a0.jpg"
+                  },
+                  {
+                    "type": "container",
+                    "blocks": [
+                      {
+                        "type": "text",
+                        "blocks": [],
+                        "content": "Medicova",
+                        "id": "5vjm0rh",
+                        "level": 1,
+                        "parentId": "h550mko",
+                        "styles": {
+                          "typography": {
+                            "fontSize": "13px",
+                            "fontWeight": "500",
+                            "lineHeight": "16px"
+                          },
+                          "dimensions": {
+                            "width": "100%"
+                          }
+                        }
+                      },
+                      {
+                        "type": "text",
+                        "blocks": [],
+                        "content": "Write Your Text Here ",
+                        "id": "1805toi",
+                        "styles": {
+                          "typography": {
+                            "fontSize": "11px",
+                            "fontWeight": "400",
+                            "lineHeight": "18px",
+                            "color": "#6d6c80"
+                          },
+                          "dimensions": {
+                            "width": "100%"
+                          }
+                        },
+                        "level": 1,
+                        "parentId": null
+                      }
+                    ],
+                    "content": "",
+                    "allowNesting": true,
+                    "expectedChildren": 1,
+                    "childrenBaseStyles": {
+                      "dimensions": {
+                        "width": "100%"
+                      }
+                    },
+                    "id": "0g4o00j",
+                    "styles": {
+                      "dimensions": {
+                        "width": "100%"
+                      }
+                    },
+                    "level": 1,
+                    "parentId": null
+                  }
+                ],
+                "content": "",
+                "allowNesting": true,
+                "expectedChildren": 1,
+                "childrenBaseStyles": {
+                  "dimensions": {
+                    "width": "100%"
+                  }
+                },
+                "id": "i8hn4ns",
+                "styles": {
+                  "dimensions": {
+                    "width": "100%"
+                  },
+                  "container": {
+                    "display": "flex",
+                    "flexDirection": "row",
+                    "alignItems": "center"
+                  }
+                },
+                "level": 1,
+                "parentId": null
+              },
+              {
+                "type": "text",
+                "blocks": [],
+                "content": "AI-powered robotic systems (like Da Vinci Surgical System) assist",
+                "id": "ve8lp2l",
+                "styles": {
+                  "typography": {
+                    "fontSize": "12px",
+                    "fontWeight": "400",
+                    "lineHeight": "18px",
+                    "color": "#6d6c80"
+                  },
+                  "dimensions": {
+                    "width": "100%"
+                  }
+                },
+                "level": 1,
+                "parentId": null
+              }
+            ],
+            "content": "",
+            "allowNesting": true,
+            "expectedChildren": 1,
+            "childrenBaseStyles": {
+              "dimensions": {
+                "width": "100%"
+              }
+            },
+            "id": "vgpdj8g",
+            "styles": {
+              "dimensions": {
+                "width": "100%"
+              },
+              "spacing": {
+                "paddingTop": "8px",
+                "paddingRight": "8px",
+                "paddingBottom": "8px",
+                "paddingLeft": "8px"
+              }
+            },
+            "level": 1,
+            "parentId": null
+          }
+        ],
+        "content": "",
+        "allowNesting": true,
+        "expectedChildren": 1,
+        "childrenBaseStyles": {
+          "dimensions": {
+            "width": "100%"
+          }
+        },
+        "id": "9fkhgo6",
+        "styles": {
+          "dimensions": {
+            "width": "100%"
+          },
+          "container": {
+            "display": "flex",
+            "flexDirection": "column"
+          },
+          "border": {
+            "borderTopLeftRadius": "8px",
+            "borderTopRightRadius": "8px",
+            "borderBottomLeftRadius": "8px",
+            "borderBottomRightRadius": "8px",
+            "borderTopWidth": "1px",
+            "borderRightWidth": "1px",
+            "borderBottomWidth": "1px",
+            "borderLeftWidth": "1px"
+          },
+          "spacing": {
+            "paddingTop": "0px",
+            "paddingRight": "0px",
+            "paddingBottom": "0px",
+            "paddingLeft": "0px"
+          }
+        },
+        "level": 1,
+        "parentId": null
+      },
+      {
+        "type": "container",
+        "blocks": [
+          {
+            "type": "image",
+            "blocks": [],
+            "content": "",
+            "id": "du69hui",
+            "styles": {
+              "dimensions": {
+                "width": "100%"
+              },
+              "image": {
+                "height": "11rem",
+                "customHeight": "custom",
+                "objectFit": "cover"
+              },
+              "spacing": {
+                "paddingTop": "0px",
+                "paddingRight": "0px",
+                "paddingBottom": "0px",
+                "paddingLeft": "0px"
+              }
+            },
+            "level": 1,
+            "parentId": null,
+            "imageUrl": "https://medicova.site/api/v1.0.0/files/c4b8e88f-4ebd-4d1a-8821-d1d553699ee9.jpg"
+          },
+          {
+            "type": "container",
+            "blocks": [
+              {
+                "type": "text",
+                "blocks": [],
+                "content": "AI in Healthcare Sector: Revolutionizing Patient Care ",
+                "id": "0u99f8z",
+                "styles": {
+                  "typography": {
+                    "fontSize": "16px",
+                    "fontWeight": "600",
+                    "lineHeight": "18px"
+                  },
+                  "dimensions": {
+                    "width": "100%"
+                  }
+                },
+                "level": 1,
+                "parentId": null
+              },
+              {
+                "type": "container",
+                "blocks": [
+                  {
+                    "type": "image",
+                    "blocks": [],
+                    "content": "",
+                    "id": "fxs53y1",
+                    "styles": {
+                      "dimensions": {
+                        "width": "50px",
+                        "customWidth": "custom",
+                        "height": "50px",
+                        "customHeight": "custom",
+                        "flexGrow": "1",
+                        "flexShrink": "0",
+                        "size": "grow"
+                      },
+                      "image": {
+                        "width": "100%",
+                        "customWidth": "100%",
+                        "height": "100%",
+                        "customHeight": "100%",
+                        "objectFit": "cover"
+                      },
+                      "border": {
+                        "borderTopLeftRadius": "50%",
+                        "borderTopRightRadius": "50%",
+                        "borderBottomLeftRadius": "50%",
+                        "borderBottomRightRadius": "50%"
+                      }
+                    },
+                    "level": 1,
+                    "parentId": null,
+                    "imageUrl": "https://medicova.site/api/v1.0.0/files/45e6665b-9f5a-46ae-b039-8abc8a1a35a0.jpg"
+                  },
+                  {
+                    "type": "container",
+                    "blocks": [
+                      {
+                        "type": "text",
+                        "blocks": [],
+                        "content": "Medicova",
+                        "id": "wrffkaw",
+                        "level": 1,
+                        "parentId": "h550mko",
+                        "styles": {
+                          "typography": {
+                            "fontSize": "13px",
+                            "fontWeight": "500",
+                            "lineHeight": "16px"
+                          },
+                          "dimensions": {
+                            "width": "100%"
+                          }
+                        }
+                      },
+                      {
+                        "type": "text",
+                        "blocks": [],
+                        "content": "Write Your Text Here ",
+                        "id": "s7tzaro",
+                        "styles": {
+                          "typography": {
+                            "fontSize": "11px",
+                            "fontWeight": "400",
+                            "lineHeight": "18px",
+                            "color": "#6d6c80"
+                          },
+                          "dimensions": {
+                            "width": "100%"
+                          }
+                        },
+                        "level": 1,
+                        "parentId": null
+                      }
+                    ],
+                    "content": "",
+                    "allowNesting": true,
+                    "expectedChildren": 1,
+                    "childrenBaseStyles": {
+                      "dimensions": {
+                        "width": "100%"
+                      }
+                    },
+                    "id": "fww6a3d",
+                    "styles": {
+                      "dimensions": {
+                        "width": "100%"
+                      }
+                    },
+                    "level": 1,
+                    "parentId": null
+                  }
+                ],
+                "content": "",
+                "allowNesting": true,
+                "expectedChildren": 1,
+                "childrenBaseStyles": {
+                  "dimensions": {
+                    "width": "100%"
+                  }
+                },
+                "id": "ge8k2mo",
+                "styles": {
+                  "dimensions": {
+                    "width": "100%"
+                  },
+                  "container": {
+                    "display": "flex",
+                    "flexDirection": "row",
+                    "alignItems": "center"
+                  }
+                },
+                "level": 1,
+                "parentId": null
+              },
+              {
+                "type": "text",
+                "blocks": [],
+                "content": "AI-powered robotic systems (like Da Vinci Surgical System) assist",
+                "id": "o3f5y8w",
+                "styles": {
+                  "typography": {
+                    "fontSize": "12px",
+                    "fontWeight": "400",
+                    "lineHeight": "18px",
+                    "color": "#6d6c80"
+                  },
+                  "dimensions": {
+                    "width": "100%"
+                  }
+                },
+                "level": 1,
+                "parentId": null
+              }
+            ],
+            "content": "",
+            "allowNesting": true,
+            "expectedChildren": 1,
+            "childrenBaseStyles": {
+              "dimensions": {
+                "width": "100%"
+              }
+            },
+            "id": "wq2g2zs",
+            "styles": {
+              "dimensions": {
+                "width": "100%"
+              },
+              "spacing": {
+                "paddingTop": "8px",
+                "paddingRight": "8px",
+                "paddingBottom": "8px",
+                "paddingLeft": "8px"
+              }
+            },
+            "level": 1,
+            "parentId": null
+          }
+        ],
+        "content": "",
+        "allowNesting": true,
+        "expectedChildren": 1,
+        "childrenBaseStyles": {
+          "dimensions": {
+            "width": "100%"
+          }
+        },
+        "id": "c8u05n5",
+        "styles": {
+          "dimensions": {
+            "width": "100%"
+          },
+          "container": {
+            "display": "flex",
+            "flexDirection": "column"
+          },
+          "border": {
+            "borderTopLeftRadius": "8px",
+            "borderTopRightRadius": "8px",
+            "borderBottomLeftRadius": "8px",
+            "borderBottomRightRadius": "8px",
+            "borderTopWidth": "1px",
+            "borderRightWidth": "1px",
+            "borderBottomWidth": "1px",
+            "borderLeftWidth": "1px"
+          },
+          "spacing": {
+            "paddingTop": "0px",
+            "paddingRight": "0px",
+            "paddingBottom": "0px",
+            "paddingLeft": "0px"
+          }
+        },
+        "level": 1,
+        "parentId": null
+      }
+    ],
+    "content": "",
+    "allowNesting": true,
+    "expectedChildren": 1,
+    "childrenBaseStyles": {
+      "dimensions": {
+        "width": "100%"
+      }
+    },
+    "id": "a5fq3z5",
+    "styles": {
+      "dimensions": {
+        "width": "100%"
+      },
+      "container": {
+        "display": "grid",
+        "gridTemplateColumns": "repeat(3, minmax(0, 1fr))"
+      }
+    },
+    "level": 1,
+    "parentId": null
+  },
+  {
+    "id": "od81552",
+    "type": "text",
+    "level": 1,
+    "blocks": [],
+    "content": "An aging population and advances in medical technology are increasing the demand for qualified workers. As a result, health care workers tend to command a higher-than-average salary alongside in-demand work that provides job security and satisfaction. Medical jobs are available to fit various skill sets and preferences. Discover more about different medical job categories, specific job roles, required education, salary data, and how to choose a career in the medical field.",
+    "styles": {
+      "typography": {
+        "fontSize": "15px",
+        "fontWeight": 400,
+        "lineHeight": "23px",
+        "fontFamily": "Inter"
+      },
+      "dimensions": {
+        "width": "100%",
+        "marginTop": "12px"
+      },
+      "background": {
+        "backgroundColor": "transparent"
+      },
+      "spacing": {
+        "paddingTop": "0px",
+        "paddingBottom": "0px",
+        "paddingRight": "0px",
+        "paddingLeft": "0px"
+      }
+    }
+  },
+  {
+    "id": "dzpk9is",
+    "type": "container",
+    "level": 1,
+    "blocks": [
+      {
+        "id": "2aeujbs1",
+        "type": "container",
+        "allowNesting": true,
+        "level": 2,
+        "content": "",
+        "styles": {
+          "dimensions": {
+            "width": {
+              "md": "70%",
+              "xs": "100%"
+            },
+            "customWidth": {
+              "md": "",
+              "xs": "100%"
+            }
+          },
+          "grid": {
+            "display": "grid",
+            "gridTemplateColumns": "repeat(1, 1fr)",
+            "gridTemplateRows": "repeat(1, 1fr)"
+          },
+          "border": {
+            "borderWidth": "0xp 0px 0px 1px",
+            "borderTopStyle": "solid",
+            "borderTopWidth": "0",
+            "borderRightWidth": "1px",
+            "borderBottomWidth": "0",
+            "borderLeftWidth": "0"
+          },
+          "container": {
+            "display": "flex",
+            "flexDirection": "column",
+            "justifyContent": "",
+            "alignItems": "",
+            "maxWidth": "none",
+            "width": "100%",
+            "contentWidth": {
+              "md": "",
+              "xs": "full-width"
+            }
+          },
+          "spacing": {
+            "paddingTop": "6px",
+            "paddingRight": "6px",
+            "paddingBottom": "6px",
+            "paddingLeft": "6px"
+          }
+        },
+        "blocks": [
+          {
+            "id": "1e7v4wd",
+            "type": "container",
+            "level": 1,
+            "blocks": [
+              {
+                "id": "xz565pb",
+                "type": "image",
+                "level": 1,
+                "blocks": [],
+                "content": "",
+                "styles": {
+                  "dimensions": {
+                    "height": "100%",
+                    "width": "60px",
+                    "alignSelf": "center",
+                    "customWidth": "custom"
+                  },
+                  "image": {
+                    "width": "100%",
+                    "height": "100.00%"
+                  }
+                },
+                "path": "4-0-0-0-0",
+                "imageUrl": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/http://coursera-university-assets.s3.amazonaws.com/3a/043acda9fb458194d1cbcd38ca6d5c/Rice_Logo_280_Blue_Square.png?auto=format%2Ccompress&amp;dpr=1&amp;w=60&amp;h=60&amp;q=40"
+              },
+              {
+                "id": "pf0n9li2",
+                "type": "container",
+                "allowNesting": true,
+                "level": 2,
+                "content": "",
+                "styles": {
+                  "dimensions": {
+                    "width": "min-content",
+                    "customWidth": "min-content",
+                    "alignSelf": ""
+                  },
+                  "grid": {
+                    "display": "grid",
+                    "gridTemplateColumns": "repeat(1, 1fr)",
+                    "gridTemplateRows": "repeat(1, 1fr)"
+                  },
+                  "container": {
+                    "display": "flex",
+                    "flexDirection": "column",
+                    "justifyContent": "space-evenly"
+                  }
+                },
+                "blocks": [
+                  {
+                    "id": "ms4rxoe",
+                    "type": "text",
+                    "level": 1,
+                    "blocks": [],
+                    "content": "specialization",
+                    "styles": {
+                      "typography": {
+                        "fontSize": "16px",
+                        "fontWeight": 400,
+                        "lineHeight": "18px",
+                        "color": "#7e7e7e"
+                      },
+                      "dimensions": {
+                        "width": "9rem",
+                        "customWidth": "custom"
+                      },
+                      "background": {
+                        "backgroundColor": "transparent"
+                      }
+                    }
+                  },
+                  {
+                    "id": "4rsyhrv",
+                    "type": "text",
+                    "level": 1,
+                    "blocks": [],
+                    "content": "Medical Terminology",
+                    "styles": {
+                      "typography": {
+                        "fontSize": "20px",
+                        "fontWeight": "700",
+                        "lineHeight": "25px",
+                        "letterSpacing": "1px"
+                      },
+                      "dimensions": {
+                        "width": "18rem",
+                        "customWidth": "custom"
+                      },
+                      "background": {
+                        "backgroundColor": "transparent"
+                      }
+                    }
+                  }
+                ]
+              }
+            ],
+            "content": "",
+            "styles": {
+              "flex": {
+                "display": "flex",
+                "flexDirection": "row",
+                "flexWrap": "wrap"
+              },
+              "container": {
+                "display": "flex",
+                "justifyContent": "flex-start",
+                "alignItems": "flex-start",
+                "gap": "12px",
+                "flexWrap": "wrap"
+              },
+              "typography": {
+                "textAlign": ""
+              }
+            },
+            "allowNesting": true
+          },
+          {
+            "id": "eqd7fh0",
+            "type": "text",
+            "level": 1,
+            "blocks": [],
+            "content": "Develop your skills in medical terminology. Identify word parts (prefixes, suffixes, and roots) and abbreviations commonly used in the medical field, read and understand health records, and identify terms associated with all 10 major organ systems.",
+            "styles": {
+              "typography": {
+                "fontSize": "14px",
+                "fontWeight": 400,
+                "lineHeight": "18px",
+                "letterSpacing": "",
+                "color": "#6d6c80"
+              },
+              "dimensions": {
+                "width": "100%"
+              },
+              "background": {
+                "backgroundColor": "transparent"
+              },
+              "spacing": {
+                "padding": "5px"
+              }
+            }
+          },
+          {
+            "id": "rmb5ma1",
+            "type": "container",
+            "level": 1,
+            "blocks": [
+              {
+                "id": "zzeclqb",
+                "type": "html",
+                "level": 2,
+                "blocks": [],
+                "content": " <svg aria-hidden=\"true\" fill=\"none\" focusable=\"false\" height=\"16\" viewBox=\"0 0 20 20\" width=\"16\" style=\"margin-right: 4px; color: #f2a600;\">\n        <path d=\"M10 14.063l-3.417 2.041a.747.747 0 01-.833-.042.752.752 0 01-.25-.343.706.706 0 01-.02-.448l.895-3.813-3.02-2.562a.68.68 0 01-.23-.386.887.887 0 01.02-.427.687.687 0 01.23-.343.741.741 0 01.417-.157L7.75 7.23l1.563-3.625A.754.754 0 0110 3.146a.747.747 0 01.688.458L12.25 7.25l3.958.333c.167.014.306.07.417.167a.771.771 0 01.24.77.74.74 0 01-.24.376l-3 2.562.896 3.813a.706.706 0 01-.02.448.752.752 0 01-.25.344.747.747 0 01-.834.041L10 14.063z\" fill=\"currentColor\"></path>\n      </svg>",
+                "styles": {
+                  "dimensions": {
+                    "width": "auto",
+                    "customWidth": "auto"
+                  },
+                  "container": {
+                    "justifyContent": "center",
+                    "display": "flex",
+                    "alignItems": "center"
+                  }
+                },
+                "path": "4-0-2-0",
+                "parentId": "rmb5ma1"
+              },
+              {
+                "id": "z26p0x6",
+                "type": "text",
+                "level": 2,
+                "blocks": [],
+                "content": "4.9",
+                "styles": {
+                  "typography": {
+                    "fontSize": "12px",
+                    "fontWeight": "700",
+                    "lineHeight": "18px"
+                  },
+                  "dimensions": {
+                    "width": "fit-content",
+                    "customWidth": "fit-content",
+                    "marginRight": "5px"
+                  },
+                  "background": {
+                    "backgroundColor": "transparent"
+                  }
+                },
+                "parentId": "rmb5ma1"
+              },
+              {
+                "id": "vbqreka",
+                "type": "text",
+                "level": 2,
+                "blocks": [],
+                "content": "(788 ratings)",
+                "styles": {
+                  "typography": {
+                    "fontSize": "12px",
+                    "fontWeight": 400,
+                    "lineHeight": "18px",
+                    "color": "#808080"
+                  },
+                  "dimensions": {
+                    "width": "fit-content",
+                    "customWidth": "fit-content"
+                  },
+                  "background": {
+                    "backgroundColor": "transparent"
+                  },
+                  "border": {
+                    "borderRightWidth": "1px"
+                  },
+                  "spacing": {
+                    "paddingRight": "12px",
+                    "paddingLeft": "12px"
+                  }
+                },
+                "parentId": "rmb5ma1"
+              },
+              {
+                "id": "o3019hs",
+                "type": "text",
+                "level": 2,
+                "blocks": [],
+                "content": "32,354 already enrolled",
+                "styles": {
+                  "typography": {
+                    "fontSize": "12px",
+                    "fontWeight": 400,
+                    "lineHeight": "18px",
+                    "color": "#808080"
+                  },
+                  "dimensions": {
+                    "width": "fit-content",
+                    "customWidth": "fit-content"
+                  },
+                  "background": {
+                    "backgroundColor": "transparent"
+                  },
+                  "border": {
+                    "borderRightWidth": "1px"
+                  },
+                  "spacing": {
+                    "paddingTop": "",
+                    "paddingRight": "012px",
+                    "paddingBottom": "",
+                    "paddingLeft": "12px"
+                  }
+                },
+                "parentId": "rmb5ma1"
+              },
+              {
+                "id": "6y09l4r",
+                "type": "text",
+                "level": 2,
+                "blocks": [],
+                "content": "Beginner level",
+                "styles": {
+                  "typography": {
+                    "fontSize": "12px",
+                    "fontWeight": 400,
+                    "lineHeight": "18px",
+                    "color": "#808080"
+                  },
+                  "dimensions": {
+                    "width": "fit-content",
+                    "customWidth": "fit-content"
+                  },
+                  "background": {
+                    "backgroundColor": "transparent"
+                  },
+                  "spacing": {
+                    "paddingLeft": "12px"
+                  }
+                },
+                "parentId": "rmb5ma1"
+              }
+            ],
+            "content": "",
+            "styles": {
+              "flex": {
+                "display": "flex",
+                "flexDirection": "row",
+                "flexWrap": "wrap",
+                "justifyContent": "flex-start",
+                "alignItems": "center"
+              },
+              "container": {
+                "display": "flex",
+                "flexWrap": "nowrap"
+              }
+            },
+            "allowNesting": true
+          },
+          {
+            "id": "wamytei",
+            "type": "button",
+            "level": 1,
+            "blocks": [],
+            "content": "Learn More",
+            "styles": {
+              "typography": {
+                "fontSize": "16px",
+                "lineHeight": "18px",
+                "color": "#ffffff",
+                "fontFamily": "Inter",
+                "fontWeight": "700",
+                "textAlign": {
+                  "md": "",
+                  "xs": "center"
+                }
+              },
+              "background": {
+                "backgroundColor": "#0056d2"
+              },
+              "spacing": {
+                "paddingRight": "24px",
+                "paddingLeft": "24px",
+                "paddingTop": "12px",
+                "paddingBottom": "12px"
+              },
+              "border": {
+                "borderRadius": "4px"
+              },
+              "dimensions": {
+                "width": {
+                  "md": "fit-content",
+                  "xs": "100%"
+                },
+                "customWidth": {
+                  "md": "fit-content",
+                  "xs": "100%"
+                },
+                "marginTop": "12px"
+              }
+            },
+            "isForm": false,
+            "linkUrl": "https://www.coursera.org/specializations/medicalterminology",
+            "formId": ""
+          }
+        ]
+      },
+      {
+        "id": "2aeujbs2",
+        "type": "container",
+        "allowNesting": true,
+        "level": 2,
+        "content": "",
+        "styles": {
+          "dimensions": {
+            "width": {
+              "md": "30%",
+              "xs": "100%"
+            },
+            "height": "",
+            "customWidth": {
+              "md": "",
+              "xs": "100%"
+            }
+          },
+          "grid": {
+            "display": "grid",
+            "gridTemplateColumns": "repeat(1, 1fr)",
+            "gridTemplateRows": "repeat(1, 1fr)"
+          },
+          "container": {
+            "display": "flex",
+            "flexDirection": "column",
+            "minHeight": "100%",
+            "justifyContent": "",
+            "maxWidth": "none",
+            "marginLeft": "auto",
+            "marginRight": "auto",
+            "contentWidth": "full-width",
+            "width": "100%"
+          },
+          "spacing": {
+            "paddingTop": "6px",
+            "paddingRight": "6px",
+            "paddingBottom": "6px",
+            "paddingLeft": "6px"
+          }
+        },
+        "blocks": [
+          {
+            "id": "7e4jj1e",
+            "type": "text",
+            "level": 1,
+            "blocks": [],
+            "content": "Average time: 1 month(s)",
+            "styles": {
+              "typography": {
+                "fontSize": "14px",
+                "fontWeight": "700",
+                "lineHeight": "18px"
+              },
+              "dimensions": {
+                "width": "100%"
+              },
+              "background": {
+                "backgroundColor": "transparent"
+              }
+            }
+          },
+          {
+            "id": "xyxc5q2",
+            "type": "text",
+            "level": 1,
+            "blocks": [],
+            "content": "Learn at your own pace",
+            "styles": {
+              "typography": {
+                "fontSize": "12px",
+                "fontWeight": "300",
+                "lineHeight": "16px",
+                "color": "#808080"
+              },
+              "dimensions": {
+                "width": "100%"
+              },
+              "background": {
+                "backgroundColor": "transparent"
+              },
+              "spacing": {
+                "padding": "5px"
+              }
+            }
+          },
+          {
+            "id": "b0ued0d",
+            "type": "text",
+            "level": 1,
+            "blocks": [],
+            "content": "Skills you'll build:",
+            "styles": {
+              "typography": {
+                "fontSize": "14px",
+                "fontWeight": "700",
+                "lineHeight": "18px"
+              },
+              "dimensions": {
+                "width": "100%"
+              },
+              "background": {
+                "backgroundColor": "transparent"
+              }
+            }
+          },
+          {
+            "id": "wn6t614",
+            "type": "text",
+            "level": 1,
+            "blocks": [],
+            "content": "Communication, Mental Health Diseases and Disorders, Psychiatry, Pharmacology, Orthopedics, Neurology, Urology, Anatomy",
+            "styles": {
+              "typography": {
+                "fontSize": "12px",
+                "fontWeight": "300",
+                "lineHeight": "16px",
+                "color": "#6d6c80"
+              },
+              "dimensions": {
+                "width": "100%",
+                "height": ""
+              },
+              "background": {
+                "backgroundColor": "transparent"
+              },
+              "spacing": {
+                "padding": "5px"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "content": "",
+    "styles": {
+      "flex": {
+        "display": "flex",
+        "flexDirection": "row",
+        "flexWrap": "wrap"
+      },
+      "border": {
+        "borderRadius": "5px",
+        "borderColor": "#e0e0e0",
+        "borderWidth": "1px",
+        "borderStyle": "solid"
+      },
+      "container": {
+        "display": "flex",
+        "flexDirection": {
+          "md": "row",
+          "xs": "column"
+        }
+      },
+      "spacing": {
+        "paddingTop": "7px",
+        "paddingRight": "7px",
+        "paddingBottom": "7px",
+        "paddingLeft": "7px"
+      }
+    },
+    "allowNesting": true
+  },
+  {
+    "id": "wft3l8f",
+    "type": "h2",
+    "level": 1,
+    "blocks": [],
+    "content": "Types of medical jobs and roles",
+    "styles": {
+      "typography": {
+        "fontSize": "24px",
+        "fontWeight": 700,
+        "lineHeight": "26px",
+        "resize": "none"
+      },
+      "background": {
+        "backgroundColor": "transparent"
+      },
+      "dimensions": {
+        "width": "100%"
+      },
+      "spacing": null,
+      "border": null
+    }
+  },
+  {
+    "id": "y0e8kk4",
+    "type": "paragraph",
+    "level": 1,
+    "blocks": [],
+    "content": "<p>What are jobs in the medical field? You can break them into several categories, each with diverse job opportunities and career paths you can pursue. At a glance, the following lists&nbsp; some of the types you'll encounter:</p><p></p><ul><li><p><strong>Administrative medical jobs</strong> involve medical professionals managing the business aspects of a health care facility or organization. These roles can include hospital administrators, office managers, and billing specialists.</p></li></ul><p></p><ul><li><p><strong>Diagnostic and treatment medical jobs </strong>involve examining, diagnosing, and treating patients in a clinical setting. These specialized roles are typically performed by highly educated health care professionals who have completed training to practice medicine. Examples are physicians, nurses, dentists, veterinarians, and pediatricians.</p></li></ul><p></p><ul><li><p><strong>Health care and medical education jobs </strong>involve a variety of roles and responsibilities, such as teaching, research, and management. It’s a broad area that describes work that educates people about health and wellness. This includes teaching self-care to patients, helping them make informed decisions about their treatment options, and explaining the science behind treatments and medication.&nbsp; As a health care education professional, you may also be involved in research activities, such as clinical trials or medical studies. Health care education jobs are in hospitals, schools, government agencies, universities, clinics, businesses, and nonprofits. Examples include health educators, health counselors, dietary managers, community outreach coordinators, and family services, specialists.&nbsp;</p></li></ul><p></p><ul><li><p><strong>Rehabilitation therapy medical jobs </strong>entail helping patients recover from injury or illness. Rehabilitation therapists work with patients who have suffered from a chronic or acute disease or have experienced an injury. You would help patients overcome physical and mental hurdles throughout their recovery.&nbsp; The role of rehabilitation therapists involves assessing the patient's needs and helping them cope with the impact of their condition. As a therapist, you will also help them reach their maximum potential in function, mobility, strength, and independence. Professionals in this field include physical, occupational, or recreational therapists, as well as speech-language pathologists.&nbsp;</p></li></ul><p></p><ul><li><p><strong>Support medical jobs</strong> are roles in which medical professionals provide non-clinical support services to patients and families. These positions include certified nurse assistants, dieticians, and home health aides.</p></li></ul><p></p><ul><li><p><strong>Affiliated medical jobs </strong>are not typically associated with the traditional medical profession. These jobs include medical assistants, social workers, biostatisticians, and sports trainers. Many of these positions require science or social science-based training. Requirements often include a bachelor’s or associate degree, although some roles may require a PhD.</p></li></ul>",
+    "styles": {
+      "typography": {
+        "fontSize": "16px",
+        "color": "#000000",
+        "lineHeight": "24px"
+      }
+    }
+  },
+  {
+    "id": "jxdizkq",
+    "type": "h2",
+    "level": 1,
+    "blocks": [],
+    "content": "Discover various medical jobs, educational qualifications for jobs in the medical field, salaries, and how to get started in your medical career.",
+    "styles": {
+      "typography": {
+        "fontSize": "25px",
+        "fontWeight": "800",
+        "lineHeight": "27px",
+        "resize": "none",
+        "color": "#ffffff",
+        "stroke": "#000000",
+        "WebkitTextStrokeColor": "#000000",
+        "strokeWidth": "0.1px",
+        "WebkitTextStrokeWidth": "0.1px",
+        "fontFamily": "Inter",
+        "letterSpacing": "0px",
+        "wordSpacing": "9px",
+        "textShadow": "2px 2px 4px rgba(0, 0, 0, 0.3)"
+      },
+      "background": {
+        "backgroundColor": "transparent",
+        "backgroundImage": "url(https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://images.ctfassets.net/wp1lcwdav1p1/5SGnNwoLAbGGeKfrxIhFMX/9c898373ca6d5e5bf7882bba918810a4/GettyImages-1461608440.jpg?w=1500&h=680&q=60&fit=fill&f=faces&fm=jpg&fl=progressive&auto=format%2Ccompress&dpr=1&w=1000)",
+        "backgroundSize": "cover"
+      },
+      "dimensions": {
+        "width": "100%"
+      },
+      "spacing": {
+        "paddingTop": "20px",
+        "paddingRight": "20px",
+        "paddingBottom": "20px",
+        "paddingLeft": "20px"
+      },
+      "border": null,
+      "container": {
+        "minHeight": "20px"
+      }
+    }
+  },
+  {
+    "id": "bhqkhgs",
+    "type": "button",
+    "level": 1,
+    "blocks": [],
+    "content": "",
+    "styles": {
+      "typography": {
+        "fontSize": "16px",
+        "lineHeight": "18px",
+        "color": "#ffffff"
+      },
+      "background": {
+        "backgroundColor": "transparent",
+        "backgroundSize": "cover",
+        "backgroundRepeat": "no-repeat",
+        "backgroundImage": "url(\"https://res.cloudinary.com/dls8drwle/image/upload/v1752785375/Screenshot_2025-07-17_234239_rasdzz.png\")"
+      },
+      "border": {
+        "borderRadius": "10px"
+      },
+      "dimensions": {
+        "width": ""
+      },
+      "button": {
+        "width": "100%",
+        "height": "350px"
+      }
+    },
+    "path": "7",
+    "isForm": false,
+    "linkUrl": "https://medicova.net",
+    "formId": ""
+  },
+  {
+    "id": "wh6gnsz",
+    "type": "h2",
+    "level": 1,
+    "blocks": [],
+    "content": "32 careers in the medical field",
+    "styles": {
+      "typography": {
+        "fontSize": "24px",
+        "fontWeight": 700,
+        "lineHeight": "26px",
+        "resize": "none"
+      },
+      "background": {
+        "backgroundColor": "transparent"
+      },
+      "dimensions": {
+        "width": "100%"
+      },
+      "spacing": {
+        "marginTop": "40px"
+      },
+      "border": null
+    }
+  },
+  {
+    "id": "kktvma5",
+    "type": "paragraph",
+    "level": 1,
+    "blocks": [],
+    "content": "<p>The medical industry offers many types of medical jobs for you to choose from. Whether you enjoy working with people or animals, the elderly or children, in a patient-facing role or a research position, you’ll find a wide spectrum of jobs available for various personality types within the medical field. If a job in the field appeals to you, check out 32 jobs you should consider pursuing:</p><p>1. <strong>Dietary aides</strong> work in food service settings, such as hospitals and nursing homes, and help prepare and serve meals.&nbsp;</p><p></p><p>2. <a target=\"_self\" rel=\"\" href=\"https://www.coursera.org/articles/home-health-aide\">Home health aides</a> provide basic care and assistance to people who cannot care for themselves, such as the elderly or disabled.&nbsp;</p><p></p><p>3. <strong>Veterinary assistants</strong> work in animal hospitals and clinics and assist veterinarians with examinations, surgeries, and other procedures.&nbsp;</p><p></p><p>4. <a target=\"_self\" rel=\"\" href=\"https://www.coursera.org/articles/medical-records-technician\">Medical records clerks</a> organize and maintain patient medical records.&nbsp;</p><p></p><p>5. <a target=\"_self\" rel=\"\" href=\"https://www.coursera.org/articles/patient-care-technician\">Patient care technicians</a> work in hospitals and other health care facilities and provide basic patient care, such as taking vital signs and assisting with activities of daily living.&nbsp;</p><p></p><p>6. <a target=\"_self\" rel=\"\" href=\"https://www.coursera.org/articles/certified-nursing-assistant\">Nursing assistants</a> provide basic nursing care to patients in hospitals and nursing homes.&nbsp;</p><p></p><p>7. <a target=\"_self\" rel=\"\" href=\"https://www.coursera.org/articles/certified-nursing-assistant\">Certified nursing assistants</a> have completed a training program and must pass a certification exam. They provide basic nursing care to patients in hospitals and nursing homes under the supervision of a registered nurse.&nbsp;</p><p></p><p>8. <a target=\"_self\" rel=\"\" href=\"https://www.coursera.org/articles/medical-transcriptionist\">Medical scribes</a><u> </u>work alongside physicians in medical environments documenting the physician’s notes into the patient’s medical record electronically.</p><p></p><p>9. <a target=\"_self\" rel=\"\" href=\"https://www.coursera.org/articles/jobs-medical-receptionist\">Medical receptionists</a> are responsible for greeting patients, scheduling appointments, and answering phones in a medical office.</p><p></p><p>10. <a target=\"_self\" rel=\"\" href=\"https://www.coursera.org/articles/medical-secretary\">Medical secretaries</a> provide clerical support to doctors and other medical staff.</p><p></p><p>11. <a target=\"_self\" rel=\"\" href=\"https://www.coursera.org/articles/certified-medical-assistant\">Medical assistants</a> perform administrative and clinical tasks to support the work of doctors and other health professionals.</p><p></p><p>12.<a target=\"_self\" rel=\"\" href=\"https://www.coursera.org/articles/strength-trainers\"> Athletic trainers</a><u> </u>work with athletes to prevent, diagnose, and treat injuries.</p><p></p><p>13. <a target=\"_self\" rel=\"\" href=\"https://www.coursera.org/articles/licensed-practical-nurse\">Licensed practical nurses</a> provide basic nursing care under the supervision of registered nurses or doctors.</p><p></p><p>14. <a target=\"_self\" rel=\"\" href=\"https://www.coursera.org/articles/how-to-become-a-nutritionist\">Nutritionists</a> develop eating plans and advise people on how to improve their diet and nutrition habits.</p><p></p><p>15. <a target=\"_self\" rel=\"\" href=\"https://www.coursera.org/articles/registered-nurse\">Registered nurses</a> provide direct patient care and coordinate the activities of other health care team members.</p><p></p><p>16. <strong>Health administrators</strong> plan, direct, and coordinate the delivery of health care services.</p><p></p><p>17. <a target=\"_self\" rel=\"\" href=\"https://www.coursera.org/articles/diagnostic-medical-sonographer\">Ultrasound technicians</a> use sound waves to create images of internal organs and tissues for diagnosis or treatment purposes.</p><p></p><p>18. <a target=\"_self\" rel=\"\" href=\"https://www.coursera.org/articles/how-to-become-a-physical-therapist\">Physical therapists</a> help patients regain movement and function after an injury or illness.</p><p></p><p>19. <a target=\"_self\" rel=\"\" href=\"https://www.coursera.org/articles/audiologist\">Audiologists</a> diagnose and treat hearing impairments.</p><p></p><p>20. <a target=\"_self\" rel=\"\" href=\"https://www.coursera.org/articles/what-does-an-occupational-therapist-do\">Occupational therapists</a> help patients regain independence and improve their quality of life after an injury or illness.</p><p></p><p>21. <strong>Directors of nursing</strong> oversee the care of patients in a health care setting.</p><p></p><p>22. <strong>Neonatal nurses</strong> care for newborn infants in the hospital setting.</p><p></p><p>23. <strong>Veterinarians</strong> provide medical care for animals.</p><p></p><p>24. <a target=\"_self\" rel=\"\" href=\"https://www.coursera.org/articles/pharmacist\">Pharmacists</a> dispense medications and advise patients on the proper use of drugs.</p><p></p><p>25. <strong>Pediatricians </strong>provide medical care for children from birth to adolescence.</p><p></p><p>26. <strong>Dentists</strong> prevent, diagnose, and treat problems with teeth and gums.</p><p></p><p>27. <strong>Physicians</strong> are medical doctors who diagnose and treat patients.</p><p></p><p>28. <strong>Surgeons</strong> are medical doctors who perform surgery.</p><p></p><p>29. <strong>Medical directors </strong>are responsible for the overall management of a medical facility.</p><p></p><p>30. <a target=\"_self\" rel=\"\" href=\"https://www.coursera.org/articles/psychiatrist\">Psychiatrists</a> are medical doctors who specialize in mental health.</p><p></p><p>31. <strong>Chief medical officers</strong> are responsible for the overall medical care of an organization.</p><p></p><p>32. <strong>Anesthesiologists</strong> are medical doctors who specialize in anesthesia.</p><p></p><p><strong>Read more: </strong><a target=\"_self\" rel=\"\" href=\"https://www.coursera.org/articles/best-paying-jobs-in-healthcare\">12 Best Paying Jobs in Health Care</a></p>",
+    "styles": {}
+  },
+  {
+    "id": "1mditfb",
+    "type": "video",
+    "level": 1,
+    "blocks": [],
+    "content": "",
+    "styles": {
+      "video": {
+        "aspectRatio": "16 / 9",
+        "overflow": "hidden"
+      },
+      "dimensions": {
+        "height": "auto",
+        "width": "100%"
+      }
+    },
+    "path": "10",
+    "videoUrl": "https://www.youtube.com/watch?v=SSlmmUH2Ado&ab_channel=IMETSMedicalSchool",
+    "videoThumbnail": ""
+  }
+]

@@ -1,0 +1,30 @@
+// GET /api/admin/top-countries?limit=10&page=0
+
+{
+  "sectors": [
+    {
+      "name": "Sector 1",
+      "id": 100,
+      "countries": [
+        {
+          "name": "Country 1",
+          "code": "US",
+          "count": 100
+        }
+      ]
+    }
+  ],
+  "type": [
+    {
+      "name": "type 1",
+      "id": 100,
+      "countries": [
+        {
+          "name": "Country 1",
+          "code": "US",
+          "count": 100
+        }
+      ]
+    }
+  ]
+}
