@@ -8,9 +8,10 @@ import VerifyToken from "@/components/UI/verifyToken";
 const resetPage = async ({
   searchParams,
 }: {
-  searchParams: { token: string };
+  searchParams: Promise<{ token?: string }>;
 }) => {
-  const token = searchParams.token;
+  const resolvedSearchParams = await searchParams;
+  const token = resolvedSearchParams.token;
 
   if (!token) {
     return (

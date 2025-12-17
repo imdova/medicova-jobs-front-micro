@@ -16,14 +16,16 @@ const page = async ({
   params,
   searchParams,
 }: {
-  params: { id: string };
-  searchParams?: { [key: string]: string | string[] | undefined };
+  params: Promise<{ id: string }>;
+  searchParams?: Promise<{ [key: string]: string | string[] | undefined }>;
 }) => {
-  const { q, country, page, limit, edu, gen, exp, sp } = searchParams as {
+  const resolvedParams = await params;
+  const resolvedSearchParams = await searchParams;
+  const { q, country, page, limit, edu, gen, exp, sp } = (resolvedSearchParams || {}) as {
     [key: string]: any;
   };
 
-  const id = params.id;
+  const id = resolvedParams.id;
   const result = await getFolderById(id);
   if (!result.success || !result.data) return notFound();
   const folder = result.data;

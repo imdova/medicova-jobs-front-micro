@@ -4,8 +4,9 @@ import Image from "next/image";
 import LoginForm from "./LoginForm";
 import { getCookies } from "@/lib/cookies";
 
-const Login = async ({ searchParams }: { searchParams: { error: string } }) => {
-  const errorParam = searchParams.error;
+const Login = async ({ searchParams }: { searchParams: Promise<{ error?: string }> }) => {
+  const resolvedSearchParams = await searchParams;
+  const errorParam = resolvedSearchParams.error;
   const error = errorParam ? await getCookies("user-error") : "";
   return (
     <div className="flex min-h-screen w-full items-center justify-center pt-[60px] md:px-5">
