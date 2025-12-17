@@ -25,7 +25,7 @@ const page = async ({
 
   const id = params.id;
   const result = await getFolderById(id);
-  if (!result.success || !result.data) return notFound;
+  if (!result.success || !result.data) return notFound();
   const folder = result.data;
   const [expFrom, expTo] = exp?.split("-") || [];
   const candidateResult = await getPaginatedCandidatesByFolderId({

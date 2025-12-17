@@ -1,12 +1,12 @@
 "use server";
 
-import { revalidateTag as revalidate, revalidatePath as revalidateThePath } from "next/cache";
+import { revalidateTag, revalidatePath as revalidateThePath } from "next/cache";
 
-async function revalidateTag(tag: string) {
-  revalidate(tag);
+async function revalidateTagWrapper(tag: string) {
+  await revalidateTag(tag, {});
 }
 async function revalidatePath(path: string) {
-  revalidateThePath(path);
+  await revalidateThePath(path);
 }
 
-export default revalidateTag;
+export default revalidateTagWrapper;

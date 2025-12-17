@@ -85,8 +85,9 @@ const seoData = [
   },
 ]
 
-export async function GET(request: NextRequest, { params }: { params: { id: string } }) {
-  const item = seoData.find((item) => item.id === params.id)
+export async function GET(request: NextRequest, { params }: { params: Promise<{ id: string }> }) {
+  const { id } = await params;
+  const item = seoData.find((item) => item.id === id)
 
   if (!item) {
     return NextResponse.json({ error: "SEO data not found" }, { status: 404 })
@@ -95,10 +96,11 @@ export async function GET(request: NextRequest, { params }: { params: { id: stri
   return NextResponse.json(item)
 }
 
-export async function PUT(request: NextRequest, { params }: { params: { id: string } }) {
+export async function PUT(request: NextRequest, { params }: { params: Promise<{ id: string }> }) {
   try {
+    const { id } = await params;
     const body = await request.json()
-    const index = seoData.findIndex((item) => item.id === params.id)
+    const index = seoData.findIndex((item) => item.id === id)
 
     if (index === -1) {
       return NextResponse.json({ error: "SEO data not found" }, { status: 404 })
@@ -125,8 +127,9 @@ export async function PUT(request: NextRequest, { params }: { params: { id: stri
   }
 }
 
-export async function DELETE(request: NextRequest, { params }: { params: { id: string } }) {
-  const index = seoData.findIndex((item) => item.id === params.id)
+export async function DELETE(request: NextRequest, { params }: { params: Promise<{ id: string }> }) {
+  const { id } = await params;
+  const index = seoData.findIndex((item) => item.id === id)
 
   if (index === -1) {
     return NextResponse.json({ error: "SEO data not found" }, { status: 404 })

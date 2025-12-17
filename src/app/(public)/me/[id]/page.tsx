@@ -5,15 +5,16 @@ import SeekerPrivateProfile from "@/components/shared/seeker/private/SeekerPriva
 import { Suspense } from "react";
 import Loading from "@/components/loading/loading";
 
-export const revalidate = 3600 * 24 * 7;
+export const revalidate = 604800; // 7 days in seconds
 
 const Page = async ({
-  params: { id },
+  params,
   searchParams,
 }: {
-  params: { id: string };
+  params: Promise<{ id: string }>;
   searchParams?: { [key: string]: string | string[] | undefined };
 }) => {
+  const { id } = await params;
   const isPublic = searchParams?.public;
   const session = await getServerSession(authOptions);
   const user = session?.user;

@@ -1,3 +1,4 @@
+"use client";
 import { Badge } from "@/components/UI/Badge";
 import StatCard from "@/components/UI/statCard";
 import { Button } from "@mui/material";

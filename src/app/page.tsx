@@ -1,4 +1,4 @@
-import React, { Suspense, useState } from "react";
+import React, { Suspense } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import Carousel, { SpecialtyCard } from "@/components/UI/Carousel";
@@ -90,14 +90,14 @@ const HomePage = () => {
             <p className="text-muted-foreground">
               {callToActionSection.leftSection.description}
             </p>
-            <Button
-              LinkComponent={Link}
-              href={callToActionSection.leftSection.button.href}
-              variant="contained"
-              className="mt-4"
-            >
-              {callToActionSection.leftSection.button.text}
-            </Button>
+            <Link href={callToActionSection.leftSection.button.href}>
+              <Button
+                variant="contained"
+                className="mt-4"
+              >
+                {callToActionSection.leftSection.button.text}
+              </Button>
+            </Link>
           </div>
           <div
             style={{
@@ -109,14 +109,14 @@ const HomePage = () => {
               {callToActionSection.rightSection.title}
             </h5>
             <p className="text-muted-foreground">{callToActionSection.rightSection.description}</p>
-            <Button
-              LinkComponent={Link}
-              href={callToActionSection.rightSection.button.href}
-              variant="contained"
-              className="mt-4"
-            >
-              {callToActionSection.rightSection.button.text}
-            </Button>
+            <Link href={callToActionSection.rightSection.button.href}>
+              <Button
+                variant="contained"
+                className="mt-4"
+              >
+                {callToActionSection.rightSection.button.text}
+              </Button>
+            </Link>
           </div>
         </div>
 

@@ -1,5 +1,5 @@
 import { ArrowRight, BookMarked, Share2 } from "lucide-react";
-import { Suspense, useState } from "react";
+import { Suspense } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import Footer from "@/components/Layout/Footer/footer";

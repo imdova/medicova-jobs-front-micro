@@ -38,7 +38,7 @@ export const callbacks = {
       //
       token.accessTokenExpires = Date.now() + 15 * 60 * 1000; // 15 minutes
       if (account?.provider === "google") {
-        const cookiesStore = cookies();
+        const cookiesStore = await cookies();
         const userData = cookiesStore.get("user")?.value;
         if (userData) {
           token = JSON.parse(userData);
