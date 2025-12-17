@@ -1,4 +1,4 @@
-export const API_URL = "https://medicova.site"; //process.env.NEXT_PUBLIC_SERVER_BASE
+export const API_URL = "http://91.108.120.146"; //process.env.NEXT_PUBLIC_SERVER_BASE
 
 export const TAGS = {
   jobs: "jobs",
