@@ -16,6 +16,7 @@ import {
 } from "lucide-react";
 import Link from "next/link";
 import { useState } from "react";
+import { useParams } from "next/navigation";
 import { Tabs, Tab, Button } from "@mui/material";
 import SingleEmployersChart from "@/components/charts/single-employer-charts";
 import Loading from "@/components/loading/loading";
@@ -34,11 +35,8 @@ import DropMenu from "@/components/UI/drop-down";
 import AssignPlan from "@/components/admin/forms/assignPlan";
 import JobsList from "@/components/shared/company/private/JobsList";
 
-interface SingleUserProps {
-  params: {
-    slug: string;
-  };
-}
+// Note: Client Components don't receive params as props
+// Use useParams() hook instead
 
 const cards = [
   {
@@ -102,8 +100,11 @@ const tabs: { key: Tab; title: string; icon?: React.ReactNode }[] = [
   },
 ];
 // TODO: add company users
-const SingleEmployerPage = ({ params }: SingleUserProps) => {
-  const slug = params.slug;
+const SingleEmployerPage = () => {
+  // Use useParams() hook to get route parameters in Client Components
+  const params = useParams();
+  const slug = params?.slug as string;
+  console.log(slug);
   const {
     data: company,
     loading,
