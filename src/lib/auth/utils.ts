@@ -7,10 +7,12 @@ import {
 } from "../access";
 import { API_RESET_PASSWORD } from "@/api/users";
 import { getCookies, setCookies } from "../cookies";
-import { RequestInternal, User } from "next-auth";
+import { RequestInternal, User, Session } from "next-auth";
 import { divideName } from "@/util";
 import { JWT } from "next-auth/jwt";
 import { RoleState } from "@/types/next-auth";
+import { getServerSession } from "next-auth";
+import { authOptions } from "./config";
 
 export async function authenticateUser(credentials: any) {
   if (!credentials?.email || !credentials?.password) return null;
@@ -118,5 +120,31 @@ export async function refreshAccessToken(token: JWT): Promise<JWT> {
   } catch (error) {
     console.error("Error refreshing access token:", error);
     return token;
+  }
+}
+
+/**
+ * Safely gets the server session, handling JWT decryption errors gracefully.
+ * Returns null if the session cannot be decrypted (e.g., due to secret change).
+ */
+export async function getSafeServerSession(): Promise<Session | null> {
+  try {
+    const session = await getServerSession(authOptions);
+    return session;
+  } catch (error: any) {
+    // Handle JWT decryption errors (e.g., when secret changes)
+    if (
+      error?.name === "JWEDecryptionFailed" ||
+      error?.message?.includes("decryption operation failed")
+    ) {
+      // Silently return null - the session is invalid and will be treated as no session
+      // This happens when the NEXTAUTH_SECRET changes and old sessions can't be decrypted
+      return null;
+    }
+    // Log other errors but still return null to prevent crashes
+    if (process.env.NODE_ENV === "development") {
+      console.warn("[getSafeServerSession] Error getting session:", error?.message || error);
+    }
+    return null;
   }
 }
