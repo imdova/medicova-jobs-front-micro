@@ -14,6 +14,9 @@ if (!process.env.NEXTAUTH_URL) {
   process.env.NEXTAUTH_URL = url;
 }
 
+// Detect if we're using HTTPS or HTTP
+const isHttps = process.env.NEXTAUTH_URL?.startsWith('https://') ?? false;
+
 // Validate NEXTAUTH_SECRET
 if (!process.env.NEXTAUTH_SECRET) {
   throw new Error("NEXTAUTH_SECRET is not set in environment variables");
@@ -39,4 +42,36 @@ export const authOptions: AuthOptions = {
   },
   secret: process.env.NEXTAUTH_SECRET,
   debug: process.env.NODE_ENV === "development",
+  cookies: {
+    // Configure cookies to work with HTTP (non-HTTPS) connections
+    // When on HTTP, don't use secure prefixes that require HTTPS
+    sessionToken: {
+      name: isHttps ? "__Secure-next-auth.session-token" : "next-auth.session-token",
+      options: {
+        httpOnly: true,
+        sameSite: "lax",
+        path: "/",
+        secure: isHttps, // Only use secure flag on HTTPS
+      },
+    },
+    callbackUrl: {
+      name: isHttps ? "__Secure-next-auth.callback-url" : "next-auth.callback-url",
+      options: {
+        httpOnly: true,
+        sameSite: "lax",
+        path: "/",
+        secure: isHttps, // Only use secure flag on HTTPS
+      },
+    },
+    csrfToken: {
+      name: isHttps ? "__Host-next-auth.csrf-token" : "next-auth.csrf-token",
+      options: {
+        httpOnly: true,
+        sameSite: "lax",
+        path: "/",
+        secure: isHttps, // Only use secure flag on HTTPS
+      },
+    },
+  },
+  useSecureCookies: isHttps, // Only use secure cookies on HTTPS
 };
