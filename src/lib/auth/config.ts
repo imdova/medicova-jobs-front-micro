@@ -14,8 +14,11 @@ if (!process.env.NEXTAUTH_URL) {
   process.env.NEXTAUTH_URL = url;
 }
 
-// Detect if we're using HTTPS or HTTP
-const isHttps = process.env.NEXTAUTH_URL?.startsWith('https://') ?? false;
+// Detect if we're using HTTPS or HTTP based on NEXTAUTH_URL
+// This determines whether to use secure cookie prefixes (__Secure- and __Host-)
+// which require HTTPS connections
+const nextAuthUrl = process.env.NEXTAUTH_URL || '';
+const isHttps = nextAuthUrl.startsWith('https://');
 
 // Validate NEXTAUTH_SECRET
 if (!process.env.NEXTAUTH_SECRET) {
