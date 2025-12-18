@@ -19,6 +19,7 @@ import FacebookButton from "@/components/auth/facebookButton";
 import { signIn } from "next-auth/react";
 import { VisibilityOffOutlined, VisibilityOutlined } from "@mui/icons-material";
 import { deleteCookies } from "@/lib/cookies";
+import { useSearchParams } from "next/navigation";
 
 interface FormData {
   email: string;
@@ -30,6 +31,7 @@ const LoginForm: React.FC<{ error?: string }> = ({ error: initialError }) => {
   const [showPassword, setShowPassword] = useState(false);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(initialError);
+  const searchParams = useSearchParams();
   const {
     handleSubmit,
     control,
@@ -46,25 +48,22 @@ const LoginForm: React.FC<{ error?: string }> = ({ error: initialError }) => {
     setLoading(true);
     await deleteCookies("user-error");
     try {
-      const result = await signIn("credentials", {
+      // Get callbackUrl from search params or default to /me
+      const callbackUrl = searchParams.get("callbackUrl") || "/me";
+      
+      // Use redirect: true with callbackUrl to let NextAuth handle the redirect properly
+      // This ensures the session cookie is set before navigation and prevents
+      // the middleware from redirecting back to signin
+      await signIn("credentials", {
         email: data.email.trim().toLowerCase(),
         password: data.password,
-        redirect: false,
+        callbackUrl: callbackUrl,
+        redirect: true,
       });
-      if (result?.error) {
-        setError(
-          result.error === "CredentialsSignin"
-            ? "Invalid email or password"
-            : "An error occurred during sign in",
-        );
-      } else {
-        if (typeof window !== "undefined") {
-          window.location.replace("/me");
-        }
-      }
+      // Note: With redirect: true, this code won't execute on success
+      // Errors will be handled via URL params (error query param) and displayed by the page component
     } catch (error) {
       setError("Failed to sign in");
-    } finally {
       setLoading(false);
     }
   };
